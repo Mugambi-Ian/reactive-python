@@ -43,5 +43,6 @@ npm start-api
 ```bash 
 yarn start-api
 ```
+the clock should start running once both servers are up.
 
-
+#### Example
