@@ -46,3 +46,4 @@ yarn start-api
 the clock should start running once both servers are up.
 
 #### Example
+![Image](https://github.com/Mugambi-Ian/learn-python/blob/master/_media/ig.png)
