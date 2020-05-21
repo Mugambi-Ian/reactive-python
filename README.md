@@ -46,4 +46,4 @@ yarn start-api
 the clock should start running once both servers are up.
 
 #### Example
-![Image](https://github.com/Mugambi-Ian/Reactive-Python/blob/master/_media/ig.png)
+![Image](https://raw.githubusercontent.com/Mugambi-Ian/Reactive-Python/master/media/ig.jpg)
