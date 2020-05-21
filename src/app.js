@@ -52,13 +52,13 @@ export default class Index extends Component {
     );
   }
   hourComponent() {
-    return <p className="hour-div">{this.state.time.hour}</p>;
+    return <p>{this.state.time.hour}</p>;
   }
   minComponent() {
-    return <p className="min-div">{this.state.time.min}</p>;
+    return <p>{this.state.time.min}</p>;
   }
   secComponent() {
-    return <p className="sec-div">{this.state.time.sec}</p>;
+    return <p>{this.state.time.sec}</p>;
   }
 
   render() {
@@ -77,7 +77,7 @@ export default class Index extends Component {
             <img src={reactLogo} alt="" className="footer-image" />
           </div>
           <p>Created By Ian Mugambi</p>
-          <a href="https://github.com/Mugambi-Ian">Github</a>
+          <a href="https://github.com/Mugambi-Ian/Reactive-Python">Github</a>
         </div>
       </div>
     );
