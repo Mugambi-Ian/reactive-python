@@ -6,12 +6,12 @@ export default class Index extends Component {
   constructor(props) {
     super(props);
     const _time = {
-      hour: "00",
-      min: "00",
-      sec: "00",
-      day: "01",
-      month: "01",
-      year: "2020",
+      hour: "##",
+      min: "##",
+      sec: "##",
+      day: "##",
+      month: "##",
+      year: "####",
     };
     this.state = {
       time: _time,
