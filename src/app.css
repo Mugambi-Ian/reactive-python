@@ -1,0 +1,108 @@
+.main-body {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.timer-text {
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    width: max-content;
+    left: 0;
+    right: 0;
+}
+
+p {
+    margin: 0px;
+}
+
+.timer-text p {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.clock-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 0;
+    right: 0;
+    width: min-content;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.clock-text p {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    min-width: 80px;
+}
+
+.fade-in {
+    animation: fadeIn ease .5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.app-credits {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    width: max-content;
+    margin: auto;
+}
+
+.app-logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-image {
+    max-width: 40px;
+    margin: 10px;
+}
+
+.app-header {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    width: max-content;
+    margin: auto;
+}
+
+.app-credits a {
+    text-emphasis: none;
+    text-decoration: none;
+}

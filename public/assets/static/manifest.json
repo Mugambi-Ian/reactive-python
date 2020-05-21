@@ -1,0 +1,13 @@
+{
+    "short_name": "Reactive Python",
+    "name": "React Python Boiler Plate",
+    "icons": [{
+        "src": "logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+    }],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
