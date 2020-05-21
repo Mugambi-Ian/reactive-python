@@ -2,29 +2,30 @@
 This project servers a bioler plate for easily getting started with your python-react projects.
 
 ## Getting started
-Clone this repository and rename its directory to your as per your current project. 
-
+Open your projects folder from your terminal and enter the following command with your specified project name.  
+```bash
+git clone https://github.com/Mugambi-Ian/Reactive-Python.git [project-name] 
+cd [project-name]
+```
 #### Installing Node Modules
-Open it from your terminal and dependending on whether you run yarn or npm for node input the following command.
+Dependending on whether you run yarn or npm for node: input the following command from your terminal in the project folder.
 - NPM  
 ```bash
 npm install
 ```
-Yarn
+- Yarn
 ```bash 
 yarn
 ```
 
 #### Setting up Python3 environment
-Open it from your terminal and dependending on whether you run yarn or npm for node input the following command.
-- NPM  
+Run the following command to ensure flask is installed. 
 ```bash
-npm install
+pip install flask
 ```
-Yarn
-```bash 
-yarn
-```
+
+## Deployment
+Run the following commmand to start your react development server.
 
 
 
