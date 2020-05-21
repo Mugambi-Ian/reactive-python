@@ -1,5 +1,5 @@
 # Reactive-Python 
-This project servers a bioler plate for easily getting started with your python-react projects.
+This project servers a boiler plate for easily getting started with your python-react projects.
 
 ## Getting started
 Open your projects folder from your terminal and enter the following command with your specified project name.  
@@ -25,7 +25,23 @@ pip install flask
 ```
 
 ## Deployment
-Run the following commmand to start your react development server.
-
+Run the following command to start your react development server.
+- NPM  
+```bash
+npm start
+```
+- Yarn
+```bash 
+yarn start
+```
+Run the following command to strart your python development sever.
+- NPM  
+```bash
+npm start-api
+```
+- Yarn
+```bash 
+yarn start-api
+```
 
 
